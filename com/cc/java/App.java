@@ -35,7 +35,7 @@ public class App
              Statement stmt = con.createStatement();
 
              // Executing the query and storing the result in a ResultSet object
-             ResultSet rs = stmt.executeQuery("SELECT * FROM mydb.employees");
+             ResultSet rs = stmt.executeQuery("SELECT * FROM mydb.t_mitarbeiter");
              System.out.println(rs);
 
             // Iterating through the ResultSet and printing the contents
